@@ -1,0 +1,10 @@
+{
+  "name": "neotethys",
+  "private": true,
+  "packageManager": "pnpm@10.33.2",
+  "scripts": {
+    "dev": "pnpm --filter @neotethys/web dev",
+    "build": "pnpm --filter @neotethys/web build",
+    "typecheck": "pnpm --filter @neotethys/web typecheck"
+  }
+}
